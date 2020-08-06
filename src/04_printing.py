@@ -12,6 +12,11 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 
+
 # Use the 'format' string method to print the same thing
 
+print("%i is x, %i is y, and z  %s " % (x, y, z))
+
 # Finally, print the same thing using an f-string
+
+print("x = %d, y = %.2f, z = %s  " % (x , y, z))
