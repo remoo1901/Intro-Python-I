@@ -14,9 +14,16 @@ z = "I like turtles!"
 
 
 # Use the 'format' string method to print the same thing
+print("x is %d, y is %0.2f , z is \"%s\"" % (x , y, z))
 
-print("%i is x, %i is y, and z  %s " % (x, y, z))
+## print("%i is x, %i is y, and z  %s " % (x, y, z))
 
 # Finally, print the same thing using an f-string
 
-print("x = %d, y = %.2f, z = %s  " % (x , y, z))
+
+print(f'x is {x}, y is {round(y, 2)}, z is "{z}"') 
+
+
+## print("x = %d, y = %.2f, z = %s  " % (x , y, z))
+
+print('x is {}, y is {}, z is "{}"'.format(x, round(y, 2), z))
