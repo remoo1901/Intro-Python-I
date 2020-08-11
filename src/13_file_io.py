@@ -26,6 +26,8 @@ file1.close()
 
 file2 = open("bar.txt", "w")
 file2.write("I've just created a new file.\n")
+file2.write("Open First Page.\n")
+file2.write("Open Seconed Page.\n")
 file2.close()
 file2 = open("foo.txt")
 print(file2.read())
