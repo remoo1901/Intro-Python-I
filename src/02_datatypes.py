@@ -1,3 +1,4 @@
+
 """
 Python is a strongly-typed language under the hood, which means
 that the types of values matter, especially when we're trying
@@ -15,7 +16,11 @@ y = "7"
 
 # YOUR CODE HERE
 
+print(5 + int("7"))
+
 
 # Write a print statement that combines x + y into the string value 57
 
 # YOUR CODE HERE
+
+print(str(5) + "7")
